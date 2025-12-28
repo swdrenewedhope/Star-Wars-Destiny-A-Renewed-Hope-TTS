@@ -452,8 +452,7 @@ characterGUIXMLScript = [[
 ]]
 
 function hideSetup()
-
-	if draftMode == true then 
+	if draftMode and draftMode == true then 
    for _, GUID in ipairs(trashBagGUIDS) do local trashObject = getObjectFromGUID(GUID)
 		if trashObject then
 			trashObject.destruct()
