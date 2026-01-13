@@ -108,10 +108,11 @@ function loadDeck()
 		if #deckID < 5 then -- This is an invalid number or a public deck.
 			WebRequest.get("http://db.swdrenewedhope.com/api/public/decklist/" .. deckID .. ".json",
                     function(webRequestInfo) loadDeckCallback(webRequestInfo) end)
-		else
+		elseif #deckID == 5 then
 			WebRequest.get("http://db.swdrenewedhope.com/api/public/deck/" .. deckID .. ".json",
                     function(webRequestInfo) loadDeckCallback(webRequestInfo) end)
-		end
+
+		else print("The deckID you have entered is invalid.") end
 
 	else end
 end
@@ -123,18 +124,17 @@ function loadDeckCallback(webRequestInfo)
       deckInfo = JSON.decode(webRequestInfo.text)
 
       if deckInfo then
-		print("Deck loading...")
         spawnLoadedDeck(deckInfo["name"], deckInfo["slots"], function(success, err)
 			if not success then
-				print ("error") return 
+				print ("There was a problem spawning in the requested deck, please check the ID, then report this issue on the ARH discord") return 
 
 			elseif success then
 				print("Deck loaded!")
 					end
 				end)
-			end
+			else print("Deck is invalid or private!") end
 		end
-	end
+	else print("There seems to be a problem contacting the database site, please report this issue on the ARH discord or check for scheduled maintenance!") end
 end
 
 function spawnLoadedDeck(deckName, deckSlots, onDone)
@@ -155,7 +155,7 @@ function spawnLoadedDeck(deckName, deckSlots, onDone)
           table.insert(deckCardInfo,     { Code = cardCode, Data = slotData, Info = cardInfo })
         end
       else
-        printToAll("Failed to find card with code " .. cardCode .. ".", {1,0,0})
+        printToAll("Failed to find card: " .. cardCode .. ".", {1,0,0})
       end
     end
   else

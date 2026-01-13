@@ -16,9 +16,9 @@ function onload()
   MENU_BUILD_BOX              = 3
   MENU_OPTIONS                = 4
 
-  debugMode				   = true -- Used for verbose function logging.
+  debugMode				   = false -- Used for verbose function logging.
 
-  cycleDeckGUIDs		   = {'60e044', '2c77b2', 'c90abd', '3b60b9', '939b99', 'c89805'} -- AWK, LEG, CONV, FA, UH, RES
+  cycleDeckGUIDs		   = {'60e044', '2c77b2', 'c90abd', '3b60b9', '939b99', 'c89805', '560142'} -- AWK, LEG, CONV, FA, UH, RES, UA
   trashBagGUIDS            = {'ec426b', 'cf6ca1'}
 
   menuGuid                    = '2a325b'
@@ -460,7 +460,7 @@ function hideSetup()
    end
 end
 
-	if deckInited ~= true then
+	if deckInited == false then
   for _, GUID in ipairs(cycleDeckGUIDs) do local deckObject = getObjectFromGUID(GUID)
 	if deckObject then
 		deckObject.locked = true

@@ -2863,7 +2863,47 @@ function onLoad()
       { code = "24003", ttscardid = "59902", number = "3", cardname ="Darth Plagueis", set = "AF", type = "Character", rarity = "Rare", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14538111582512757699/AB160A0D2B6DF7BC1108D2EA7DB27D9D19BFBB80/" },
       { code = "24002", ttscardid = "59901", number = "2", cardname ="Dagan Gera", set = "AF", type = "Character", rarity = "Rare", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/10622115674123854397/E49FE8A9426BC43B3CDBFFF8537B718D73967A0C/" },
       { code = "24001", ttscardid = "59900", number = "1", cardname ="Baylan Skoll", set = "AF", type = "Character", rarity = "Rare", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/13715921114588396040/D808B8923DD7503FEEED67E3B5FE745F199C7DF3/" },
-}
+
+	-- Uncharted Alliances
+	  { code = "25001", ttscardid = "60100", number = "1", cardname ="Seventh Sister", set = "UA", type = "Character", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14946497239803865818/6953B1088A51A31D07962EA3C4DF61A7B8044684/" },
+      { code = "25002", ttscardid = "60101", number = "2", cardname = "Bend to my power", set = "UA", type = "Event", rarity = "Starter", color = "blue" },
+      { code = "25003", ttscardid = "60102", number = "3", cardname ="Frynock", set = "UA", type = "Support", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/10154716716263311137/B1E21DE354FE88AABC55D437B22D4923C8F0CD53/" },
+      { code = "25004", ttscardid = "60103", number = "4", cardname ="ID9 Seeker Droid", set = "UA", type = "Upgrade", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/9461982190533947638/20DC90A3CE286ED44B088E5F34EBD2511772292C/" },
+      { code = "25005", ttscardid = "60104", number = "5", cardname ="General Veers", set = "UA", type = "Character", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14970150735479519634/333506565DCA113F83906B92C2D7B086D64F0512/" },
+      { code = "25006", ttscardid = "60105", number = "6", cardname ="Surface Attack", set = "UA", type = "Event", rarity = "Starter", color = "red" },
+      { code = "25007", ttscardid = "60200", number = "7", cardname ="AT-ST", set = "UA", type = "Support", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/16944972822817061446/3C12DF74BBD79FDF5877EFA714C58988DBBDC159/" },
+      { code = "25008", ttscardid = "60201", number = "8", cardname ="Wampa", set = "UA", type = "Support", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/12825508034020066049/908C85A1EF591A53C6BACF2CB6A27618A9B6ED4A/" },
+      { code = "25009", ttscardid = "60202", number = "9", cardname ="Boba Fett", set = "UA", type = "Character", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/13252798525349365828/99E4CBBAE30004BE8505C8135AA1869FB087D45F/" },
+      { code = "25010", ttscardid = "60203", number = "10", cardname ="There Will Be No Bargain", set = "UA", type = "Event", rarity = "Starter", color = "yellow" },
+      { code = "25011", ttscardid = "60204", number = "11", cardname ="Gamorrean Guard", set = "UA", type = "Support", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/17319364333072838938/D93C97EBCD261362D43BEDA51053FB99E315AD1F/" },
+      { code = "25012", ttscardid = "60205", number = "12", cardname ="Rancor", set = "UA", type = "Support", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/16183542564404108118/AAC27E758EA2BC30EB74E4804816D9A072EF77BA/" },
+      { code = "25013", ttscardid = "60300", number = "13", cardname ="Slave 1", set = "UA", type = "Support", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/13749215097075225609/8219EBF256717FED639BEB178B3FD51739B966A6/" },
+      { code = "25014", ttscardid = "60301", number = "14", cardname ="Krykna", set = "UA", type = "Support", rarity = "Starter", color = "gray", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/13117370052297914814/4D21C34056DBF35966CA86B27D2FADBD1766687B/" },
+      { code = "25015", ttscardid = "60302", number = "15", cardname ="Ezra Bridger", set = "UA", type = "Character", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/10057902140118085862/D04CF060DD0A4D10A53A0CE0D42973AC130AF99B/" },
+      { code = "25016", ttscardid = "60303", number = "16", cardname ="Uncharted Alliances", set = "UA", type = "Event", rarity = "Starter", color = "blue" },
+      { code = "25017", ttscardid = "60304", number = "17", cardname ="Dume", set = "UA", type = "Support", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14408200116886303194/B9FA90817853F7BE03BEFEF7C6BCF353E8BFC9FC/" },
+      { code = "25018", ttscardid = "60305", number = "18", cardname ="R2-D2", set = "UA", type = "Support", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/12730725096479383793/9DD96E95919881E065B840B31F75E25828891C46/" },
+      { code = "25019", ttscardid = "60400", number = "19", cardname ="Leia Organa", set = "UA", type = "Character", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/9489675869512605042/8E9A574103914A7AE1F8DDAE75C050FB98C66E10/" },
+      { code = "25020", ttscardid = "60401", number = "20", cardname = "One For One", set = "UA", type = "Event", rarity = "Starter", color = "red"},
+      { code = "25021", ttscardid = "60402", number = "21", cardname ="C-3PO", set = "UA", type = "Support", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14636996377251607005/CEC6A36B22169B64E77F9FA522034673C07ABFB3/" },
+      { code = "25022", ttscardid = "60403", number = "22", cardname ="Tauntaun", set = "UA", type = "Support", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14079566049965143361/F3842808AA10AB4962C34C256FAE516D9EFAB570/" },
+      { code = "25023", ttscardid = "60404", number = "23", cardname ="Saw Gererra", set = "UA", type = "Character", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/12732954655762724093/9341F8299D55FAFFF1DABB21424C3DF67C042D1C/" },
+      { code = "25024", ttscardid = "60405", number = "24", cardname ="Save The Rebellion", set = "UA", type = "Event", rarity = "Starter", color = "yellow" },
+      { code = "25025", ttscardid = "60500", number = "25", cardname ="Insurgent Spy", set = "UA", type = "Support", rarity = "Starter", color = "yellow" },
+      { code = "25026", ttscardid = "60501", number = "26", cardname ="Moroff", set = "UA", type = "Support", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/13366012419853718390/E98AD47BE8DF2305AFFE76B9A919000DCAA7EFAF/" },
+      { code = "25027", ttscardid = "60502", number = "27", cardname ="Porg", set = "UA", type = "Support", rarity = "Starter", color = "gray" },
+      { code = "25028", ttscardid = "60503", number = "28", cardname ="Rebel Airspeeder", set = "UA", type = "Support", rarity = "Starter", color = "gray", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/17558024518194308566/93F0A85532832BD7489919EB906C4C28C9B1A006/" },
+      { code = "25029", ttscardid = "60504", number = "29", cardname ="Bendu", set = "UA", type = "Support", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/13017176098495776463/C502D39B8F9D0C2ED5447DC21E6DA4F8B9DD7BEC/"},
+      { code = "25030", ttscardid = "60505", number = "30", cardname ="Omi", set = "UA", type = "Support", rarity = "Starter", color = "blue", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/9496347080099711474/215132CBD1B5EE5319B6B36E3BE340320725C6FE/" },
+      { code = "25031", ttscardid = "60600", number = "31", cardname ="Bodhi Rook", set = "UA", type = "Support", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/14015880444807975125/33B06165FB04108453A8DD5366A78D77E631EF70/" },
+      { code = "25032", ttscardid = "60601", number = "32", cardname ="The Zillo Beast", set = "UA", type = "Support", rarity = "Starter", color = "red", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/15769999784699121066/D9FED2AA3EE003B4C5EA5409D8B371D3947081F0/" },
+      { code = "25033", ttscardid = "60602", number = "33", cardname ="Krayt Dragon", set = "UA", type = "Support", rarity = "Starter", color = "yellow", diceimage = "https://steamusercontent-a.akamaihd.net/ugc/9553489664842454618/D545B68724A5C5EAB12322CEC9081006587438A5/" },
+      { code = "25034", ttscardid = "60603", number = "34", cardname ="Nature", set = "UA", type = "Event", rarity = "Starter", color = "gray" },
+      { code = "25035", ttscardid = "60604", number = "35", cardname ="Forage", set = "UA", type = "Event", rarity = "Starter", color = "gray" },
+      { code = "25036", ttscardid = "60605", number = "36", cardname ="Hunters' Guild Target", set = "UA", type = "Downgrade", rarity = "Starter", color = "gray" },
+      { code = "25037", ttscardid = "60700", number = "37", cardname ="Feral", set = "UA", type = "Upgrade", rarity = "Starter", color = "gray" },
+      { code = "25038", ttscardid = "60701", number = "38", cardname ="Tamed", set = "UA", type = "Upgrade", rarity = "Starter", color = "gray" },
+	}
 
 Global.setTable("SWDARHISTHEBEST", SWDARHISTHEBEST)
 SWDARHISTHEBEST = nil
@@ -2977,7 +3017,17 @@ ttsDeckInfo = { -- Poor name, need to change.
   { ttsdeckid = "599", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/2508018112031691243/6C7A3B28E54743B4A168C8B65E513A3EEB3C0EF9/", deckwidth = 10, deckheight = 7 },
   { ttsdeckid = "600", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/2508018112031695297/AB7EDA5F24F9B3FD23F9EA64142F7A72ABFD96BA/", deckwidth = 10, deckheight = 5 },
   
+  -- Uncharted Alliances
+  { ttsdeckid = "601", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/15039989769198664991/ED0B3E6782104A0DFB934D5ABF8DC9C94F5EFB24/", deckwidth = 3, deckheight = 2 },
+  { ttsdeckid = "602", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/15993687448155686990/8FD580ACD89B08CB450BD998C7574296F3DDC813/", deckwidth = 3, deckheight = 2 },
+  { ttsdeckid = "603", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/11045265362789693593/96BBD994823B542E6014E988B791485EADCF41A8/", deckwidth = 3, deckheight = 2 },
+  { ttsdeckid = "604", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/17044497610048562398/63DD3988F385C34AFB3A7E7DAAB6BECC883FB1AB/", deckwidth = 3, deckheight = 2 },
+  { ttsdeckid = "605", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/9398366612888769806/9A23F802DC8D12971A600445671AF04B7913A6C9/", deckwidth = 3, deckheight = 2 },
+  { ttsdeckid = "606", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/10675887360953403423/ECC90CFCBB3E8B01EEE2089848F7802A1A331F67/", deckwidth = 3, deckheight = 2 },
+  { ttsdeckid = "607", deckimage = "https://steamusercontent-a.akamaihd.net/ugc/12160506054856249923/587BF6E1660156FEC87516587298AEBD897A25F7/", deckwidth = 3, deckheight = 2 },
+
   -- END OF RENEWED HOPE SETS
+
 }
 Global.setTable("ttsDeckInfo", ttsDeckInfo)
 ttsDeckInfo = nil
