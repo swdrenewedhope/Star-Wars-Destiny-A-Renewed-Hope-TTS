@@ -112,10 +112,10 @@ function loadDeck(_, color) playerColor = color
 	deckLoadTimer = Wait.time(function () pendingLoadRequest = false print("Failed to load deck, fetch request timed out. Please try again and notify the ARH team.") activeRequest.dispose() end, 15)
 
 		if #deckID < 5 then -- Invalid number or a public deck.
-			activeRequest = WebRequest.get("http://db.swdrenewedhope.com/api/public/decklist/" .. deckID .. ".json",
+			activeRequest = WebRequest.get("http://db.swdrenewedhope.com/api/decklist/" .. deckID,
                     function(webRequestInfo) loadDeckCallback(webRequestInfo) end)
 		else
-			activeRequest = WebRequest.get("http://db.swdrenewedhope.com/api/public/deck/" .. deckID .. ".json",
+			activeRequest = WebRequest.get("http://db.swdrenewedhope.com/api/deck/" .. deckID,
                     function(webRequestInfo) loadDeckCallback(webRequestInfo) end)
 		end
 	end
@@ -315,7 +315,7 @@ function addNonDeckCardsToBagJSON(playerColor, nonDeckCardInfo)
 
     if qty > 1 then
       pendingCardLookups = pendingCardLookups + 1
-      local url = "http://db.swdrenewedhope.com/api/public/card/" .. curCard.Code .. ".json"
+      local url = "http://db.swdrenewedhope.com/api/card/" .. curCard.Code
       WebRequest.get(url, function(wr)
         local finalQty = qty
         if wr and not wr.is_error and wr.text and wr.text ~= "" then

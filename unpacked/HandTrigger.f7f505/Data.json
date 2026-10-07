@@ -1,18 +1,18 @@
 {
-  "GUID": "e20311",
-  "Name": "Bag",
+  "GUID": "f7f505",
+  "Name": "HandTrigger",
   "Transform": {
-    "posX": -49.1139526,
-    "posY": 1.78018522,
-    "posZ": 7.854046,
-    "rotX": 0.00114718743,
-    "rotY": 179.971054,
-    "rotZ": 0.0005642763,
-    "scaleX": 1,
-    "scaleY": 1,
-    "scaleZ": 1
+    "posX": 23.670002,
+    "posY": -10,
+    "posZ": -34.2558136,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "scaleX": 0.01,
+    "scaleY": 0.01,
+    "scaleZ": 0.01
   },
-  "Nickname": "Lando",
+  "Nickname": "",
   "Description": "",
   "GMNotes": "",
   "AltLookAngle": {
@@ -22,13 +22,14 @@
   },
   "ColorDiffuse": {
     "r": 1,
-    "g": 0.8559321,
-    "b": 0
+    "g": 1,
+    "b": 1,
+    "a": 0
   },
   "LayoutGroupSortIndex": 0,
   "Value": 0,
-  "Locked": false,
-  "Grid": true,
+  "Locked": true,
+  "Grid": false,
   "Snap": true,
   "IgnoreFoW": false,
   "MeasureMovement": false,
@@ -39,9 +40,5 @@
   "GridProjection": false,
   "HideWhenFaceDown": false,
   "Hands": false,
-  "MaterialIndex": -1,
-  "MeshIndex": -1,
-  "Bag": {
-    "Order": 0
-  }
+  "FogColor": "White"
 }
